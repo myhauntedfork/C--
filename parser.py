@@ -91,7 +91,7 @@ class Parser:
             if self.current_token and self.current_token.value == 'if':
                 else_body = [self.parse_if_statement()]
             else:
-                self.expect('DELIMITER'
+                self.expect('DELIMITER')
                 else_body = self.parse_block()
 
         return IfNode(condition, then_body, else_body)
