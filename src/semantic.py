@@ -1,3 +1,8 @@
+from ast_nodes import (
+    VarAssignNode, VarAccessNode, BinOpNode, IfNode, WhileNode, 
+    PrintNode, NumberNode, StringNode
+)
+
 class SemanticError(Exception):
     def __init__(self, message, line, column):
         self.message = message
