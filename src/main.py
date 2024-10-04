@@ -1,7 +1,7 @@
-from lexer import Lexer, LexerError
-from parser import Parser, ParserError
-from semantic import SemanticAnalyzer, SemanticError
-from ast_nodes import *
+from src.lexer import Lexer, LexerError
+from src.parser import Parser, ParserError
+from src.semantic import SemanticAnalyzer, SemanticError
+from src.ast_nodes import *
 
 def main():
     code = '''

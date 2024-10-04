@@ -1,6 +1,6 @@
-from semantic_analyzer import SemanticAnalyzer
-from code_generator import CodeGenerator
-from ast_nodes import (
+from src.semantic_analyzer import SemanticAnalyzer
+from src.code_generator import CodeGenerator
+from src.ast_nodes import (
     NumberNode, StringNode, VarAccessNode, VarAssignNode, 
     BinOpNode, PrintNode, IfNode, WhileNode
 )
